@@ -67,3 +67,5 @@ Sweet black nectar of the gods.
 This actually is a need.
 
 - [Nikka From The Barrel](https://www.celticwhiskeyshop.com/nikka-from-the-barrel)
+- [Green Spot](https://www.spotwhiskey.com/en-EN/the-whiskeys/greenspot)
+- [Yellow Spot](https://www.spotwhiskey.com/en-EN/the-whiskeys/yellowspot)
