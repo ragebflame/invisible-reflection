@@ -8,7 +8,15 @@ tags:
 layout: layouts/post.njk
 ---
 
+```sh
+#noun
+a list of desired things or occurrences.
+"it's best for homeowners to make a wish list of all the things they want"
+```
+
 Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlist/ls/IYC1DEIBVM69?ref_=wl_share) I also update sometimes.
+
+💫*Last updated: 10/11/2020*
 
 ### Books 📚
 
