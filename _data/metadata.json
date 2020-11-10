@@ -1,25 +1,25 @@
 {
-  "title": "Title of the website. Update me.",
-  "url": "https://update-me.com",
-  "domain": "update-me.com",
-  "description": "Description of the website. Update me.",
-  "genre": "Insert a schema.org genre",
-  "googleAnalyticsId": "GA ID. Update me",
+  "title": "Invisible Reflection",
+  "url": "https://invisible-reflection.netlify.app",
+  "domain": "invisible-reflection.netlify.app",
+  "description": "A brain dump 🧠💨",
+  "genre": "CreativeWork",
+  "googleAnalyticsId": "NOT IN USE",
   "feed": {
-    "subtitle": "Subtitle. Update me.",
+    "subtitle": "The feed",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://update-me.com"
+    "id": "https://invisible-reflection.netlify.app"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://update-me.com/feed/feed.json"
+    "url": "https://invisible-reflection.netlify.app/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
-    "twitterHandle": "update_me"
+    "name": "Daniel Flannery",
+    "twitterHandle": "@ragebflame"
   },
   "publisher": {
-    "name": "Publisher name. Update me."
+    "name": "Daniel Flannery."
   }
 }
