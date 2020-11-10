@@ -8,7 +8,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-```sh
+```bash
 #noun
 a list of desired things or occurrences.
 "it's best for homeowners to make a wish list of all the things they want"
