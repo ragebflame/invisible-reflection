@@ -10,8 +10,7 @@ layout: layouts/post.njk
 
 ```bash
 #noun
-a list of desired things or occurrences.
-"it's best for homeowners to make a wish list of all the things they want"
+A list of desired things or occurrences.
 ```
 
 Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlist/ls/IYC1DEIBVM69?ref_=wl_share) I also update sometimes.
@@ -43,6 +42,17 @@ Say what?
 - [Shure SM7B Vocal Dynamic Microphone](https://www.amazon.co.uk/dp/B007A3W6B6/?coliid=I1OOF88LEJPLW2&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 - [Focusrite Scarlett 2i2 3rd](https://www.amazon.co.uk/dp/B07QR73T66/?coliid=I26CMKS5EM9BQV&colid=IYC1DEIBVM69&psc=0&ref_=lv_ov_lig_dp_it)
 
+##### Instruments / Pedals / Amps 🎸🎹
+
+- [REVV D20 20w Amp](https://www.thomann.de/ie/revv_d20_amp_head_wh.htm)
+- [Universal Audio Apollo](https://www.thomann.de/ie/universal_audio_apollo_twin_x_duo.htm)
+- [Two Notes Torpedo Captor](https://www.thomann.de/ie/two_notes_torpedo_captor_x_16.htm)
+- [Kemper Profiling Amplifier](https://www.thomann.de/ie/kemper_profiling_amplifier_bk.htm)
+- [Boss RC-3 Loop pedal](https://www.thomann.de/ie/boss_rc3.htm)
+- [tc electronic Ditto Looper](https://www.thomann.de/ie/tc_electronic_ditto.htm?sid=f92db2229d89b5d5e3f1d49d892f8efb)
+- [Line6 HX Stomp](https://www.thomann.de/ie/line6_hx_stomp.htm)
+- [OP-1 portable synthesizer](https://teenage.engineering/store/op-1/)
+
 ### Coffee ☕
 
 Sweet black nectar of the gods.
@@ -50,7 +60,7 @@ Sweet black nectar of the gods.
 - [AeroPress Coffee and Espresso Maker](https://www.amazon.co.uk/dp/B000GXZ2GS/?coliid=I3PL009N1759WB&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 - [Hario - Transparent Black Mini Mill Plus](https://www.amazon.co.uk/dp/B01GPMH590/?coliid=IPH3SGHYPJCB9&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 - [Cloud Picker Coffee](https://cloudpickercoffee.ie/)
-
+- [Ocaso Coffee (Salento, Colombia)](https://www.ocasocoffee.com/web/fresh-coffee/)
 
 ### Whiskey 🥃
 
