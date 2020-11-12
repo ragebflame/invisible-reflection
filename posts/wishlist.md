@@ -34,6 +34,11 @@ I never read, But I like to look at the covers..
 - [iFixit Pro Tech Toolkit](https://www.amazon.co.uk/dp/B01GF0KV6G/?coliid=I1KTURGCX817IW&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 - [ONEGenug Headset Stand](https://www.amazon.co.uk/dp/B07JN1BGK9/?coliid=I1TOFC7S5QDNGE&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 
+##### Interesting projects 🔬🧰
+
+- [An updated daily front page of The New York Times as artwork on your wall](https://alexanderklopping.medium.com/an-updated-daily-front-page-of-the-new-york-times-as-artwork-on-your-wall-3b28c3261478)
+- [Pwnagotchi: Deep reinforcement learning for wifi pwning!](https://pwnagotchi.ai/)
+
 ### Audio gear 🔊
 
 Say what?
