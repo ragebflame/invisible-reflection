@@ -74,3 +74,11 @@ This actually is a need.
 - [Nikka From The Barrel](https://www.celticwhiskeyshop.com/nikka-from-the-barrel)
 - [Green Spot](https://www.spotwhiskey.com/en-EN/the-whiskeys/greenspot)
 - [Yellow Spot](https://www.spotwhiskey.com/en-EN/the-whiskeys/yellowspot)
+
+### Beer 🍺
+
+No TV and no beer make Homer something something...
+
+- [Whiplash Beer](http://www.whiplashbeer.com/)
+- Samual Adams on Draft 😍
+- Staropramen
