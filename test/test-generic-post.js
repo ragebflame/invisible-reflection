@@ -13,10 +13,10 @@ const metadata = require("../_data/metadata.json");
  */
 
 describe("check build output for a generic post", () => {
-  describe("sample post", () => {
-    const POST_FILENAME = "_site/posts/firstpost/index.html";
+  describe("SKIP_TESTS", () => {
+    const POST_FILENAME = "_site/posts/SKIP_TESTS/index.html";
     const URL = metadata.url;
-    const POST_URL = URL + "/posts/firstpost/";
+    const POST_URL = URL + "/posts/SKIP_TESTS/";
 
     if (!existsSync(POST_FILENAME)) {
       it("WARNING skipping tests because POST_FILENAME does not exist", () => {});
