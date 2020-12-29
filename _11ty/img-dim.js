@@ -26,8 +26,6 @@ const blurryPlaceholder = require("./blurry-placeholder");
 const srcset = require("./srcset");
 const path = require("path");
 
-const ACTIVATE_AVIF = false;
-
 /**
  * Sets `width` and `height` on each image, adds blurry placeholder
  * and generates a srcset if none present.
@@ -63,28 +61,33 @@ const processImage = async (img, outputPath) => {
   if (img.tagName == "IMG") {
     img.setAttribute("decoding", "async");
     img.setAttribute("loading", "lazy");
+    // Contain the intrinsic to the `--main-width` (width of the main article body)
+    // and the aspect ratio times that size. But because images are `max-width: 100%`
+    // use the `min` operator to set the actual dimensions of the image as the
+    // ceiling 🤯.
+    const containSize = `min(var(--main-width), ${
+      dimensions.width
+    }px) min(calc(var(--main-width) * ${
+      dimensions.height / dimensions.width
+    }), ${dimensions.height}px)`;
     img.setAttribute(
       "style",
-      `background-size:cover;background-image:url("${await blurryPlaceholder(
-        src
-      )}")`
+      `background-size:cover;` +
+        `contain-intrinsic-size: ${containSize};` +
+        `background-image:url("${await blurryPlaceholder(src)}")`
     );
     const doc = img.ownerDocument;
     const picture = doc.createElement("picture");
     const avif = doc.createElement("source");
     const webp = doc.createElement("source");
     const jpeg = doc.createElement("source");
-    if (ACTIVATE_AVIF) {
-      await setSrcset(avif, src, "avif");
-    }
+    await setSrcset(avif, src, "avif");
     avif.setAttribute("type", "image/avif");
     await setSrcset(webp, src, "webp");
     webp.setAttribute("type", "image/webp");
     await setSrcset(jpeg, src, "jpeg");
     jpeg.setAttribute("type", "image/jpeg");
-    if (ACTIVATE_AVIF) {
-      picture.appendChild(avif);
-    }
+    picture.appendChild(avif);
     picture.appendChild(webp);
     picture.appendChild(jpeg);
     img.parentElement.replaceChild(picture, img);

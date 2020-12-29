@@ -4,6 +4,7 @@ const { JSDOM } = require("jsdom");
 const readFileSync = require("fs").readFileSync;
 const existsSync = require("fs").existsSync;
 const metadata = require("../_data/metadata.json");
+const GA_ID = require("../_data/googleanalytics.js")();
 
 /**
  * These tests kind of suck and they are kind of useful.
@@ -58,6 +59,35 @@ describe("check build output for a generic post", () => {
       const css = select("style");
       expect(css).to.match(/header nav/);
       expect(css).to.not.match(/test-dead-code-elimination-sentinel/);
+    });
+
+    it("should have script elements", () => {
+      const scripts = doc.querySelectorAll("script[src]");
+      let has_ga_id = GA_ID ? 1 : 0;
+      expect(scripts).to.have.length(has_ga_id + 1); // NOTE: update this when adding more <script>
+      expect(scripts[0].getAttribute("src")).to.match(
+        /^\/js\/min\.js\?hash=\w+/
+      );
+    });
+
+    it("should have GA a setup", () => {
+      if (!GA_ID) {
+        return;
+      }
+      const scripts = doc.querySelectorAll("script[src]");
+      expect(scripts[1].getAttribute("src")).to.match(
+        /^\/js\/cached\.js\?hash=\w+/
+      );
+      const noscript = doc.querySelectorAll("noscript");
+      expect(noscript.length).to.be.greaterThan(0);
+      let count = 0;
+      for (let n of noscript) {
+        if (n.textContent.includes("/.netlify/functions/ga")) {
+          count++;
+          expect(n.textContent).to.contain(GA_ID);
+        }
+      }
+      expect(count).to.equal(1);
     });
 
     it("should have a good CSP", () => {
@@ -118,11 +148,10 @@ describe("check build output for a generic post", () => {
         const img = images[0];
         const picture = pictures[0];
         const sources = Array.from(picture.querySelectorAll("source"));
-        expect(sources).to.have.length(2);
+        expect(sources).to.have.length(3);
         expect(img.src).to.match(/\/img\/remote\/\w+\.jpg/);
         expect(metaImage).to.equal(URL + img.src);
-        // Comment back in when avif is stable enough.
-        //const avif = sources.shift();
+        const avif = sources.shift();
         const webp = sources.shift();
         const jpg = sources.shift();
         expect(jpg.srcset).to.match(
@@ -131,16 +160,16 @@ describe("check build output for a generic post", () => {
         expect(webp.srcset).to.match(
           /\/img\/remote\/\w+-1920w.webp 1920w, \/img\/remote\/\w+-1280w.webp 1280w, \/img\/remote\/\w+-640w.webp 640w, \/img\/remote\/\w+-320w.webp 320w/
         );
-        //expect(avif.srcset).to.match(
-        //  /\/img\/remote\/\w+-1920w.avif 1920w, \/img\/remote\/\w+-1280w.avif 1280w, \/img\/remote\/\w+-640w.avif 640w, \/img\/remote\/\w+-320w.avif 320w/
-        //);
+        expect(avif.srcset).to.match(
+          /\/img\/remote\/\w+-1920w.avif 1920w, \/img\/remote\/\w+-1280w.avif 1280w, \/img\/remote\/\w+-640w.avif 640w, \/img\/remote\/\w+-320w.avif 320w/
+        );
         expect(jpg.type).to.equal("image/jpeg");
         expect(webp.type).to.equal("image/webp");
         //expect(avif.type).to.equal("image/avif");
         expect(jpg.sizes).to.equal("(max-width: 608px) 100vw, 608px");
         expect(webp.sizes).to.equal("(max-width: 608px) 100vw, 608px");
-        expect(img.height).to.equal(850);
-        expect(img.width).to.equal(1280);
+        expect(img.height).to.match(/^\d+$/);
+        expect(img.width).to.match(/^\d+$/);
         expect(img.getAttribute("loading")).to.equal("lazy");
         expect(img.getAttribute("decoding")).to.equal("async");
         // JSDom fails to parse the style attribute properly

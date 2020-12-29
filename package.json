@@ -44,8 +44,7 @@
     "shorthash": "0.0.2"
   },
   "dependencies": {
-    "@ampproject/toolbox-optimizer": "^2.7.3",
-    "@saschazar/wasm-avif": "^1.0.0",
+    "@ampproject/toolbox-optimizer": "^2.5.5",
     "clean-css": "^4.2.3",
     "concurrently": "^5.2.0",
     "csp-hash-generator": "0.0.3",
@@ -60,7 +59,9 @@
     "purge-from-html": "^1.0.3",
     "purgecss": "^2.3.0",
     "rollup": "^2.23.0",
-    "sharp": "^0.25.4",
-    "twitter": "^1.7.1"
+    "sharp": "^0.27.0",
+    "twitter": "^1.7.1",
+    "phin": "^3.5.0",
+    "querystring": "^0.2.0"
   }
 }

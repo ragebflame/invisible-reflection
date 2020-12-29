@@ -48,13 +48,12 @@ npm run build
 
 - Search for "Update me" across files in your editor to find all the site specific things you should update.
 - Update the favicons in 'img/favicon/'.
-- If you don't want the (same-origin) Google Analytics integration, rip it out 😛.
 - Otherwise: Knock yourself out. This is a template repository.
 - For a simple color override, adjust these CSS variables at the top of `css/main.css`.
 
 ```css
 :root {
-  --primary: #E7BF60;
+  --primary: #e7bf60;
   --primary-dark: #f9c412;
 }
 ```
@@ -75,9 +74,10 @@ npm run build
 
 - Generates multiple sizes of each image and uses them in **`srcset`**.
 - Generates a **blurry placeholder** for each image (without adding an HTML element or using JS).
-- Transcodes images to [AVIF](https://en.wikipedia.org/wiki/AV1#AV1_Image_File_Format_(AVIF)) (currently off-by-default due to instabillity of the encoder) and [webp](https://developers.google.com/speed/webp) and generates `picture` element.
+- Transcodes images to [AVIF](<https://en.wikipedia.org/wiki/AV1#AV1_Image_File_Format_(AVIF)>) and [webp](https://developers.google.com/speed/webp) and generates `picture` element.
 - **Lazy loads** images (using [native `loading=lazy`](https://web.dev/native-lazy-loading/)).
 - **Async decodes** images (using `decoding=async`).
+- **Lazy layout** of images and placeholders using [`content-visibility: auto`](https://web.dev/content-visibility/#skipping-rendering-work-with-content-visibility).
 - **Avoids CLS impact** of images by inferring and providing width and height (Supported in Chrome, Firefox and Safari 14+).
 - Downloads remote images and stores/serves them locally.
 - Immutable URLs.
@@ -106,8 +106,10 @@ npm run build
 #### Analytics
 
 - Supports locally serving Google Analytics's JS and proxying it's hit requests to a Netlify proxy (other proxies could be easily added).
+- Supports sending [Core Web Vitals](https://web.dev/vitals/) metrics to Google Analytics as [events](https://github.com/GoogleChrome/web-vitals#send-the-results-to-google-analytics).
 - Support for noscript hit requests.
 - Avoids blocking onload on analytics requests.
+- To turn this on, specify `googleAnalyticsId` in `metadata.json`.
 
 ### DX features
 
@@ -118,7 +120,7 @@ npm run build
 
 ### SEO & Social
 
-- Share button prefering `navigator.share()` and falling back to Twitter. Using OS-like share-icon.
+- Share button preferring `navigator.share()` and falling back to Twitter. Using OS-like share-icon.
 - Support for OGP metadata.
 - Support for Twitter metadata.
 - Support for schema.org JSON-LD.
@@ -137,6 +139,7 @@ Generates a strong CSP for the base template.
 - Default-src is self.
 - Disallows plugins.
 - Generates hash based CSP for the JS used on the site.
+- To extend the CSP with new rules, see [CSP.js](https://github.com/google/eleventy-high-performance-blog/blob/main/_data/csp.js#L22)
 
 ### Build performance
 
