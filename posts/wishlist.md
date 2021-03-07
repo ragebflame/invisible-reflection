@@ -15,11 +15,11 @@ A list of desired things or occurrences.
 
 Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlist/ls/IYC1DEIBVM69?ref_=wl_share) I also update sometimes.
 
-💫*Last updated: 12/12/2020*
+💫*Last updated: 07/03/2021*
 
 ### Books 📚
 
-I never read, But I like to look at the covers..
+> a written or printed work consisting of pages glued or sewn together along one side and bound in covers.
 
 - [Dune](https://www.amazon.co.uk/dp/0340960191/?coliid=IWF52FC73H1B&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it_im)
 - [Blood, Sweat, and Pixels](https://www.amazon.co.uk/dp/0062651234/?coliid=I2JCNRSUYCAFFP&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
@@ -32,8 +32,10 @@ I never read, But I like to look at the covers..
 🤖
 
 - [Tile Pro (2020)](https://www.amazon.co.uk/dp/B07W87124X/?coliid=I3Q5XX1FA6M1MB&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
-- [iFixit Pro Tech Toolkit](https://www.amazon.co.uk/dp/B01GF0KV6G/?coliid=I1KTURGCX817IW&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
+- ~~[iFixit Pro Tech Toolkit](https://www.amazon.co.uk/dp/B01GF0KV6G/?coliid=I1KTURGCX817IW&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)~~
+  - Obtained 🙌
 - [ONEGenug Headset Stand](https://www.amazon.co.uk/dp/B07JN1BGK9/?coliid=I1TOFC7S5QDNGE&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
+- [OAKO Standing desk](https://www.oakodenmark.dk/)
 
 ##### Compute 💻🎮
 
@@ -79,8 +81,10 @@ Sweet black nectar of the gods.
   - 🎈 Acquired: Makes great coffee.
 - ~~[Hario - Transparent Black Mini Mill Plus](https://www.amazon.co.uk/dp/B01GPMH590/?coliid=IPH3SGHYPJCB9&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)~~
   - 🎈 Acquired: Grinds great coffee.
-- [Cloud Picker Coffee](https://cloudpickercoffee.ie/)
+- [3fe Coffee (Dublin)](https://3fe.com/)
+- [Cloud Picker Coffee (Dublin)](https://cloudpickercoffee.ie/)
 - [Ocaso Coffee (Salento, Colombia)](https://www.ocasocoffee.com/web/fresh-coffee/)
+- [Velo Coffee (Cork)](https://velocoffee.ie/)
 - [Ember Mug²](https://ember.com/products/ember-mug-2-metallic-collection?variant=32813645594709)
 
 ### Whiskey 🥃
@@ -97,4 +101,5 @@ No TV and no beer make Homer something something...
 
 - [Whiplash Beer](http://www.whiplashbeer.com/)
 - Samual Adams on Draft 😍
-- Staropramen
+- [Troube Brewing - Sabotage](https://troublebrewing.ie/beers/sabotage/) (Tastes like Sam Adams)
+- Pilsner Urquell
