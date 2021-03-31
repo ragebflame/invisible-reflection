@@ -17,6 +17,8 @@ Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlis
 
 💫*Last updated: 07/03/2021*
 
+![Witness it](https://media.giphy.com/media/F0QWePzwQRewM/source.gif)
+
 ### Books 📚
 
 > a written or printed work consisting of pages glued or sewn together along one side and bound in covers.
