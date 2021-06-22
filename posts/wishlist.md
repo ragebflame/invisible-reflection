@@ -15,7 +15,7 @@ A list of desired things or occurrences.
 
 Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlist/ls/IYC1DEIBVM69?ref_=wl_share) I also update sometimes.
 
-💫*Last updated: 07/03/2021*
+💫*Last updated: 22/06/2021*
 
 ![Witness it](https://media.giphy.com/media/F0QWePzwQRewM/source.gif)
 
@@ -33,15 +33,18 @@ Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlis
 
 🤖
 
-- [Tile Pro (2020)](https://www.amazon.co.uk/dp/B07W87124X/?coliid=I3Q5XX1FA6M1MB&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
+- ~~[Tile Pro (2020)](https://www.amazon.co.uk/dp/B07W87124X/?coliid=I3Q5XX1FA6M1MB&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)~~
+  - Obtained 🙌
 - ~~[iFixit Pro Tech Toolkit](https://www.amazon.co.uk/dp/B01GF0KV6G/?coliid=I1KTURGCX817IW&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)~~
   - Obtained 🙌
 - [ONEGenug Headset Stand](https://www.amazon.co.uk/dp/B07JN1BGK9/?coliid=I1TOFC7S5QDNGE&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 - [OAKO Standing desk](https://www.oakodenmark.dk/)
+- [Keychron keyboards](www.keychron.com)
 
 ##### Compute 💻🎮
 
-- 1440p Moniter: [LG UltraGear 27GL850-B](https://geizhals.eu/lg-ultragear-27gl850-b-a2077529.html?t=alle&plz=&va=b&vl=de&hloc=at&hloc=de&hloc=pl&hloc=uk&hloc=eu&v=l)
+- ~~1440p Moniter: [LG UltraGear 27GL850-B](https://geizhals.eu/lg-ultragear-27gl850-b-a2077529.html?t=alle&plz=&va=b&vl=de&hloc=at&hloc=de&hloc=pl&hloc=uk&hloc=eu&v=l)~~
+  - Obtained 🙌
 - GPU: [Nvidia GeForce RTX 3080](https://www.scan.co.uk/shop/gaming/gpu-nvidia/nvidia-geforce-rtx-3080-graphics-cards)
 - CPU: [AMD Ryzen 9 5900X](https://www.scan.co.uk/products/amd-ryzen-9-5900x-am4-zen-3-12-core-24-thread-37ghz-48ghz-turbo-70mb-cache-pcie-40-105w-cpu)
 
@@ -96,6 +99,7 @@ This actually is a need.
 - [Nikka From The Barrel](https://www.celticwhiskeyshop.com/nikka-from-the-barrel)
 - [Green Spot](https://www.spotwhiskey.com/en-EN/the-whiskeys/greenspot)
 - [Yellow Spot](https://www.spotwhiskey.com/en-EN/the-whiskeys/yellowspot)
+- [Redbreast Single Pot](https://www.redbreastwhiskey.com/en-EN/)
 
 ### Beer 🍺
 
