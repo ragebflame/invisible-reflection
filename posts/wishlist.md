@@ -39,7 +39,7 @@ Things I ~~need~~ want. An [Amazon wishlist](https://www.amazon.co.uk/hz/wishlis
   - Obtained 🙌
 - [ONEGenug Headset Stand](https://www.amazon.co.uk/dp/B07JN1BGK9/?coliid=I1TOFC7S5QDNGE&colid=IYC1DEIBVM69&psc=1&ref_=lv_ov_lig_dp_it)
 - [OAKO Standing desk](https://www.oakodenmark.dk/)
-- [Keychron keyboards](www.keychron.com)
+- [Keychron keyboards](https://www.keychron.com)
 
 ##### Compute 💻🎮
 
